@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#ourFeatures {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.ourFeaturesText {
+  background-color: blue;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.ourFeaturesTextSummary {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  height: auto;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.ourFeaturesItems{
+    margin-top: -20px;
+}
+.ourFeaturesItem{
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
